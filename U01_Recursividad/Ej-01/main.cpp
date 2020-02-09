@@ -2,6 +2,9 @@
 #include "potencia.h"
 
 int main() {
-    std::cout << "Ejercicio 01/01\n" << std::endl;
-    return 0;
+    int b, e;
+    cout<<"ingrese base y exponente"<<endl;
+    cin>>b>>e;
+   cout<< potencia(b,e);
+
 }
