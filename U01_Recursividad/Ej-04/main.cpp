@@ -2,6 +2,8 @@
 #include "mcd.h"
 
 int main() {
-    std::cout << "Ejercicio 01/04\n" << std::endl;
-    return 0;
+    int a=0,b=0;
+    cout<<"ingrese los valores de a y b"<<endl;
+    cin>>a>>b;
+    cout<<mcd(a,b)<<endl;
 }
